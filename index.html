@@ -64,36 +64,54 @@
 <main id="modules">
 
     <!-- Sequence Flow Banner -->
-    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:36px;font-size:12px;color:var(--text-dim);">
-        <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;font-weight:700;">
+    <!--<div style="background:var(&#45;&#45;surface);border:1px solid var(&#45;&#45;border);border-radius:10px;padding:16px 20px;margin-bottom:36px;font-size:12px;color:var(&#45;&#45;text-dim);">
+        <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(&#45;&#45;accent);margin-bottom:10px;font-weight:700;">
             📍 Порядок прохождения
         </div>
         <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px;line-height:2;">
-            <span style="background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.25);color:var(--accent3);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">00 Введение + Нетология вводная</span>
-            <span style="color:var(--text-muted);">→</span>
-            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">01 Python Ч.1 + SQL + Redis/RabbitMQ + Git</span>
-            <span style="color:var(--text-muted);">→</span>
-            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">02 Linux + Нетология Linux/Bash/Сети/ИБ</span>
-            <span style="color:var(--text-muted);">→</span>
-            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">03 DevOps+Docker + Нетология Docker/CI-CD/HA</span>
-            <span style="color:var(--text-muted);">→</span>
-            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">04 DevOps Advanced + Zabbix/Prometheus</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.25);color:var(&#45;&#45;accent3);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">00 Введение + Нетология вводная</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
+            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(&#45;&#45;green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">01 Python Ч.1 + SQL + Redis/RabbitMQ + Git</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
+            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(&#45;&#45;green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">02 Linux + Нетология Linux/Bash/Сети/ИБ</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
+            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(&#45;&#45;green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">03 DevOps+Docker + Нетология Docker/CI-CD/HA</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
+            <span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(&#45;&#45;green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">04 DevOps Advanced + Zabbix/Prometheus</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">05 Python Ч.2 + ИИ</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">06 Kubernetes + Нетология K8s/Микросервисы</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">07 SIEM + Agile</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">08 Консультации</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">09 Безопасность БД</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">10 Архитектор ПО</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">11 Адаптация</span>
-            <span style="color:var(--text-muted);">→</span>
+            <span style="color:var(&#45;&#45;text-muted);">→</span>
             <span style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.25);color:#f59e0b;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">★ Презентация</span>
+        </div>
+    </div>-->
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:36px;font-size:12px;color:var(--text-dim);">
+        <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;font-weight:700;">📍 Порядок прохождения</div>
+        <div class="sequence-flow">
+            <div class="sequence-step"><span class="sequence-step-num">00</span><span style="background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.25);color:var(--accent3);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Введение Skillbox + DevOps-контекст (Нетология 001–003)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">01</span><span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">SQL + Python Ч.1 + БД/Redis/RabbitMQ/Git (Нетология)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">02</span><span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Linux + SLI0A основы + Bash + Сети + ИБ (Нетология)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">03</span><span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">DevOps Основы + Docker + CI/CD/HA (Нетология)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">04</span><span style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);color:var(--green);font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">DevOps Advanced + Zabbix/Prometheus (Нетология)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">05</span><span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Python Ч.2 + ИИ-инструменты</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">06</span><span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Kubernetes + K8s/Микросервисы (Нетология)</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">07</span><span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">SIEM + Agile</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">08</span><span style="background:rgba(79,110,255,0.1);border:1px solid rgba(79,110,255,0.25);color:#8ba3ff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Консультации</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">09</span><span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Безопасность БД</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">10</span><span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Архитектор ПО</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">11</span><span style="background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.25);color:#b87dff;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Адаптация</span></div>
+            <div class="sequence-step"><span class="sequence-step-num">★</span><span style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.25);color:#f59e0b;font-family:'Space Mono',monospace;font-size:9px;padding:2px 8px;border-radius:2px;">Презентация проектов</span></div>
         </div>
     </div>
 
